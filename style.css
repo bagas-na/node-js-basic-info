@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 48px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 5px -1px #333333;
+}
+
+header > .container {
+  height: 100%;
+  max-width: 992px;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+
+  position: relative;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header a {
+  color: rgba(60, 62, 66, 255);
+}
+
+header > .container > div:last-child {
+  position: absolute;
+  right: 0;
+}
+
+header button {
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+  border: none;
+
+  background-color: #000000;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: white;
+
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #333333;
+}
+
+header button:active {
+  background-color: #4d4d4d;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2, p {
+  margin: 0;
+}
+
+footer {
+  height: 48px;
+  width: 100%;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 5px -1px #333333;
+}
+
+footer > .container {
+  height: 100%;
+  max-width: 992px;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+main {
+  width: 100%;
+  min-height: calc(100vh - 2 * 48px);
+}
+
+main > .container {
+  height: 100%;
+  max-width: 992px;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  padding-top: 2rem;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+
+  display: flex;
+ justify-content: space-between;
+}
+
+.caption {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.buttons button,
+.message-box button {
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+  border: none;
+
+  background-color: #4839de;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: white;
+
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #4133c8;
+}
+
+.buttons button:active {
+  background-color: #32289b;
+}
+
+button > svg {
+  width: 50%;
+  height: 50%;
+}
+
+.buttons button.logo {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 42px;
+  border: 1px solid #b6b0f2;
+}
+
+.message-box {
+    flex: auto;
+
+    max-width: 450px;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #f7f6fb;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+span.red {
+    color: red;
+}
+
+.message-box input {
+    margin-bottom: 0.5rem;
+}
+
+
+.card-content {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 4rem;
+}
+
